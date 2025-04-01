@@ -1,0 +1,674 @@
+title:
+ersion="1.0" standalone="yes" ?>
+Version:
+1.13.1
+valuesFileName:
+>Class Diagram</DiagramType>
+Num.Elems:
+12
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+5
+ptul:
+122 105
+ptdr:
+229 168
+Num.Links:
+2
+link objId:
+15
+link objId:
+17
+name:
+Cuenta
+Num.Attrs:
+2
+name:
+Email
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+6
+ptul:
+430 104
+ptdr:
+661 188
+Num.Links:
+6
+link objId:
+15
+link objId:
+17
+link objId:
+20
+link objId:
+21
+link objId:
+36
+link objId:
+38
+name:
+Libreta
+Num.Attrs:
+0
+Num.Opers:
+3
+name:
+InsertarContacto(Contacto)
+type:
+void
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+0
+name:
+ObtenerContactos(string)
+type:
+Contacto
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+0
+name:
+ObtenerContactos
+type:
+Contacto
+classScope:
+0
+abstract:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+showParams:
+1
+showParamTypes:
+1
+Num.Params:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+7
+ptul:
+132 272
+ptdr:
+248 367
+Num.Links:
+4
+link objId:
+20
+link objId:
+21
+link objId:
+22
+link objId:
+35
+name:
+Contacto
+Num.Attrs:
+4
+name:
+Direccion
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Email
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+name:
+Telefono
+type:
+int
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+8
+ptul:
+575 321
+ptdr:
+686 368
+Num.Links:
+4
+link objId:
+22
+link objId:
+35
+link objId:
+36
+link objId:
+38
+name:
+GrupoContactos
+Num.Attrs:
+1
+name:
+Nombre
+type:
+string
+defValue:
+
+classScope:
+0
+vis:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+derived:
+0
+Num.Opers:
+0
+type:
+4
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+21
+Num.Pts:
+4
+438 188
+414 311
+321 321
+248 322
+objStartId:
+6
+objEndId:
+7
+roleAname:
+Libreta
+roleBname:
+Contacto
+roleAnav:
+0
+roleBnav:
+0
+roleAmult:
+1
+roleBmult:
+*
+derivedA:
+0
+derivedB:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+17
+Num.Pts:
+3
+229 120
+307 123
+430 122
+objStartId:
+5
+objEndId:
+6
+roleAname:
+1
+roleBname:
+
+roleAmult:
+
+roleBmult:
+
+composition:
+0
+type:
+4
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+15
+Num.Pts:
+3
+229 121
+258 122
+430 123
+objStartId:
+5
+objEndId:
+6
+roleAname:
+Cuenta
+roleBname:
+Libreta
+roleAnav:
+1
+roleBnav:
+0
+roleAmult:
+
+roleBmult:
+1
+derivedA:
+0
+derivedB:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+36
+Num.Pts:
+2
+595 188
+616 321
+objStartId:
+6
+objEndId:
+8
+roleAname:
+
+roleBname:
+
+roleAmult:
+
+roleBmult:
+
+composition:
+1
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+35
+Num.Pts:
+6
+575 358
+513 373
+464 376
+423 370
+391 372
+248 367
+objStartId:
+8
+objEndId:
+7
+roleAname:
+
+roleBname:
+
+roleAmult:
+
+roleBmult:
+
+composition:
+1
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+20
+Num.Pts:
+5
+442 188
+437 219
+415 312
+281 321
+248 320
+objStartId:
+6
+objEndId:
+7
+roleAname:
+
+roleBname:
+
+roleAmult:
+
+roleBmult:
+
+composition:
+1
+type:
+4
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+38
+Num.Pts:
+2
+617 321
+594 188
+objStartId:
+8
+objEndId:
+6
+roleAname:
+GrupoContactos
+roleBname:
+Libreta
+roleAnav:
+0
+roleBnav:
+0
+roleAmult:
+*
+roleBmult:
+1
+derivedA:
+0
+derivedB:
+0
+type:
+4
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+22
+Num.Pts:
+5
+575 360
+531 369
+495 373
+356 372
+248 364
+objStartId:
+8
+objEndId:
+7
+roleAname:
+GrupoContactos
+roleBname:
+Contacto
+roleAnav:
+0
+roleBnav:
+0
+roleAmult:
+1
+roleBmult:
+*
+derivedA:
+0
+derivedB:
+0
